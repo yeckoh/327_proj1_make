@@ -2,10 +2,11 @@
 # prof: K Perkins @ CNU.edu
 # auth: wesley chang	00960978
 # date: 3 Sept 2k19
-# 
+
 # define COMP for g++ ver. 7.4.0 on ubuntu 18.04-3
 COMP = g++
 CFLAGS = -Wall
+RM = rm -f
 
 # default target output
 all: myexe
