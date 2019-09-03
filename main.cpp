@@ -12,12 +12,8 @@ comments:
 #include <iostream>	//iostream is where std::cout and std::endl are defined
 #include "myfunc.h" // myfunc is where MYFUNC_H / func() is defined
 
-/* MOVED to MYFUNC_H
-std::string func()
-{
-	return "hello";
-}
-*/
+// MOVED to MYFUNC_H
+// std::string func()
 
 int main()
 {
