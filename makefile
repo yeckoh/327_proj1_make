@@ -3,10 +3,11 @@
 # auth: wesley chang	00960978
 # date: 3 Sept 2k19
 # 
-# define COMPILER for gcc ver. 7.4.0 on ubuntu 18.04-3
+# define COMP for g++ ver. 7.4.0 on ubuntu 18.04-3
 COMP = g++
 CFLAGS = -Wall
 
+# default target output
 all: myexe
 
 # make myexe, needs main and myfunc objects
