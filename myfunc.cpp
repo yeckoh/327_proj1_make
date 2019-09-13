@@ -9,7 +9,7 @@ comments:
 */
 
 #include "myfunc.h"
-
+using std::string;
 string func() {
 	return "hello";
 }
