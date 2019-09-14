@@ -11,6 +11,5 @@ comments:
 #ifndef MYFUNC_H
 #define MYFUNC_H
 #include <string>
-using std::string;
-string func();
+std::string func();
 #endif
